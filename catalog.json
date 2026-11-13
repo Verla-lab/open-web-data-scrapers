@@ -1,0 +1,29 @@
+{
+  "updated": "2026-11-13",
+  "projects": [
+    {
+      "slug": "amazon-product-data-python",
+      "category": "ecommerce",
+      "data": ["title", "price", "rating", "product_url"],
+      "login_required": false,
+      "output": ["json", "csv"],
+      "status": "planned"
+    },
+    {
+      "slug": "transfermarkt-market-values-python",
+      "category": "sports",
+      "data": ["player", "club", "position", "market_value"],
+      "login_required": false,
+      "output": ["json", "csv"],
+      "status": "planned"
+    },
+    {
+      "slug": "hacker-news-data-python",
+      "category": "publishing-community",
+      "data": ["title", "score", "author", "comments"],
+      "login_required": false,
+      "output": ["json", "csv"],
+      "status": "planned"
+    }
+  ]
+}
